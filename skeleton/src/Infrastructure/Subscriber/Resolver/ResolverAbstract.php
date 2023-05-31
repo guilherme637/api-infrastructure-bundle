@@ -2,22 +2,22 @@
 
 namespace App\Infrastructure\Subscriber\Resolver;
 
-use App\Infrastructure\Exception\InternalServerHttpException;
-use App\Infrastructure\Subscriber\Resolver\Handler\NotFoundHandler;
+use App\Infrastructure\Exception\Status500\InternalServerHttpException;
 use App\Infrastructure\VO\ResponseVO;
 
 abstract class ResolverAbstract implements ResolverHandlerInterface
 {
     private ?ResolverHandlerInterface $handler = null;
 
-    public function setNext(ResolverHandlerInterface $handler): void
+    public function setNext(ResolverHandlerInterface $handler): ResolverHandlerInterface
     {
         $this->handler = $handler;
+
+        return $handler;
     }
 
     public function handle(\Throwable $throwable): ?ResponseVO
     {
-        dump($throwable);
         if ($this->shoudCall($throwable)) {
             $nameClass = get_class($this);
             $instanceOfNameClass = new $nameClass();

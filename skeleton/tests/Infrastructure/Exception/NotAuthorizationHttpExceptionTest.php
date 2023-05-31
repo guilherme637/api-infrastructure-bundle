@@ -3,7 +3,7 @@
 namespace Infrastructure\Exception;
 
 use App\Infrastructure\Enum\CodeEnum;
-use App\Infrastructure\Exception\NotAuthorizationHttpException;
+use App\Infrastructure\Exception\Status400\NotAuthorizationHttpException;
 use PHPUnit\Framework\TestCase;
 
 class NotAuthorizationHttpExceptionTest extends TestCase

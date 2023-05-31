@@ -3,7 +3,7 @@
 namespace Infrastructure\Exception;
 
 use App\Infrastructure\Enum\CodeEnum;
-use App\Infrastructure\Exception\NotFoundHttpException;
+use App\Infrastructure\Exception\Status400\NotFoundHttpException;
 use PHPUnit\Framework\TestCase;
 
 class NotFoundHttpExceptionTest extends TestCase

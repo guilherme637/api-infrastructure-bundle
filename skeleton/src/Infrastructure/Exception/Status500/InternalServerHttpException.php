@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Infrastructure\Exception;
+namespace App\Infrastructure\Exception\Status500;
 
 use App\Infrastructure\Enum\CodeEnum;
+use App\Infrastructure\Exception\AbstractException;
 
 class InternalServerHttpException extends AbstractException
 {

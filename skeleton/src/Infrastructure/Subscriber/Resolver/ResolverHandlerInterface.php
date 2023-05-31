@@ -6,6 +6,6 @@ use App\Infrastructure\VO\ResponseVO;
 
 interface ResolverHandlerInterface
 {
-    public function setNext(ResolverHandlerInterface $handler): void;
+    public function setNext(ResolverHandlerInterface $handler): ResolverHandlerInterface;
     public function handle(\Throwable $throwable): ?ResponseVO;
 }

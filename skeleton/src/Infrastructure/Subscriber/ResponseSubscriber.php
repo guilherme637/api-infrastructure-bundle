@@ -26,7 +26,7 @@ class ResponseSubscriber implements EventSubscriberInterface
 
         $event->setResponse(
             new JsonResponse(
-                 $responseVO->getResponse(),
+                $responseVO->getResponse(),
                 $responseVO->getCode()
             )
         );
