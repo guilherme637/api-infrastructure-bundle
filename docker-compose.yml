@@ -3,12 +3,12 @@ services:
     container_name: php-api-infrastructure
     build:
       context: .
-      dockerfile: ./infrastructure/docker/php/Dockerfile
+      dockerfile: devops/docker/php/Dockerfile
     extra_hosts:
       - "host.docker.internal:host-gateway"
     volumes:
       - .:/var/www/html/api-infrastructure-bundle:rw
-      - ./infrastructure/docker/php/90-xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini:rw
+      - ./devops/docker/php/90-xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini:rw
     ports:
       - 3030:3030
     entrypoint: "php -S 0.0.0:3030"
