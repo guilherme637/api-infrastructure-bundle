@@ -1,7 +1,7 @@
 {
   "name": "guichaves/api-infrastructure-bundle",
   "description": "Bundle para projetos pessoais",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license": "proprietary",
   "authors": [
     {
