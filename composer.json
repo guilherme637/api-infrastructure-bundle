@@ -1,24 +1,61 @@
 {
-  "name": "guichaves/api-infrastructure-bundle",
-  "description": "Bundle para projetos pessoais",
-  "minimum-stability": "dev",
-  "license": "proprietary",
-  "authors": [
-    {
-      "name": "guilherme",
-      "email": "email@example.com"
-    }
-  ],
-  "require": {
-    "php": "8.*"
-  },
-  "scripts": {
-    "install": {
-      "install-adapter": "composer install -d adapter/",
-      "install-exception-response": "composer install -d response-exception/"
+    "type": "symfony-bundle",
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.2.5",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "jms/serializer": "^3.24",
+        "symfony/console": "5.4.*",
+        "symfony/dotenv": "5.4.*",
+        "symfony/flex": "^1.17|^2",
+        "symfony/framework-bundle": "5.4.*",
+        "symfony/runtime": "5.4.*",
+        "symfony/yaml": "5.4.*"
     },
-    "post-package-install": [
-      "@install"
-    ]
-  }
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true,
+            "php-http/discovery": true,
+            "symfony/flex": true,
+            "symfony/runtime": true
+        },
+        "optimize-autoloader": true,
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "GuiChaves\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GuiChaves\\Tests\\": "tests/"
+        }
+    },
+    "replace": {
+        "symfony/polyfill-ctype": "*",
+        "symfony/polyfill-iconv": "*",
+        "symfony/polyfill-php72": "*"
+    },
+    "scripts": {
+        "phpunit": "vendor/bin/phpunit --colors --display-incomplete --display-skipped --display-deprecations --display-errors --display-notices --display-warnings"
+    },
+    "conflict": {
+        "symfony/symfony": "*"
+    },
+    "extra": {
+        "symfony": {
+            "allow-contrib": false,
+            "require": "5.4.*"
+        }
+    }
 }

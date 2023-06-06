@@ -1,2 +1,16 @@
-.idea
-response-exception/html-coverage
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+tests/phpunit.cache
+html-coverage
+###< phpunit/phpunit ###
