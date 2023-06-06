@@ -17,7 +17,7 @@
       "install-adapter": "composer install -d adapter/",
       "install-exception-response": "composer install -d response-exception/"
     },
-    "post-install-cmd": [
+    "post-package-install": [
       "@install"
     ]
   }

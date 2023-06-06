@@ -1,5 +1,5 @@
 {
-    "type": "project",
+    "type": "symfony-bundle",
     "license": "proprietary",
     "minimum-stability": "stable",
     "prefer-stable": true,
@@ -56,5 +56,6 @@
             "allow-contrib": false,
             "require": "5.4.*"
         }
-    }
+    },
+    "t"
 }
