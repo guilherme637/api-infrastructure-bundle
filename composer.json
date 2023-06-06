@@ -1,8 +1,15 @@
 {
     "type": "symfony-bundle",
+    "name": "guichaves/api-infrastructure-bundle",
     "license": "proprietary",
     "minimum-stability": "stable",
     "prefer-stable": true,
+    "authors": [
+        {
+            "name": "guilherme",
+            "email": "email@example.com"
+        }
+    ],
     "require": {
         "php": ">=7.2.5",
         "ext-ctype": "*",
