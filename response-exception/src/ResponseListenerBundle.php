@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace GuiChaves;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

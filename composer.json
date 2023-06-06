@@ -11,5 +11,14 @@
   ],
   "require": {
     "php": "8.*"
+  },
+  "scripts": {
+    "install": {
+      "install-adapter": "composer install -d adapter/",
+      "install-exception-response": "composer install -d response-exception/"
+    },
+    "post-install-cmd": [
+      "@install"
+    ]
   }
 }
