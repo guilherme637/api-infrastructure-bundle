@@ -4,7 +4,7 @@
     "name": "guichaves/api-infrastructure-bundle",
     "license": "proprietary",
     "minimum-stability": "stable",
-    "prefer-stable": true,
+    "prefer-stable": false,
     "authors": [
         {
             "name": "guilherme",
