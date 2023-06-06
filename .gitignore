@@ -6,11 +6,12 @@
 /config/secrets/prod/prod.decrypt.private.php
 /public/bundles/
 /var/
+.idea
 ###< symfony/framework-bundle ###
 
 ###> phpunit/phpunit ###
 /phpunit.xml
 .phpunit.result.cache
 tests/phpunit.cache
-html-coverage
+html-coverage/
 ###< phpunit/phpunit ###
