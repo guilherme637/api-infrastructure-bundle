@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Infrastructure\VO;
+namespace GuiChaves\Infrastructure\VO;
 
 class ResponseVO
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Infrastructure\Enum;
+namespace GuiChaves\Infrastructure\Enum;
 
 enum CodeEnum:int
 {

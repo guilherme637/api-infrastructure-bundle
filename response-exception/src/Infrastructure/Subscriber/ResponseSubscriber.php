@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Infrastructure\Subscriber;
+namespace GuiChaves\Infrastructure\Subscriber;
 
-use App\Infrastructure\Subscriber\Resolver\Resolver;
+use GuiChaves\Infrastructure\Subscriber\Resolver\Resolver;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpKernel\Event\ExceptionEvent;

@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Infrastructure\Exception\Status200;
+namespace GuiChaves\Infrastructure\Exception\Status200;
 
-use App\Infrastructure\Enum\CodeEnum;
-use App\Infrastructure\Exception\AbstractException;
+use GuiChaves\Infrastructure\Enum\CodeEnum;
+use GuiChaves\Infrastructure\Exception\AbstractException;
 
 class NoContentHttpException extends AbstractException
 {

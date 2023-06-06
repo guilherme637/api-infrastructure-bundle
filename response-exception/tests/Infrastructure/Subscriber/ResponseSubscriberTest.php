@@ -2,14 +2,14 @@
 
 namespace Infrastructure\Subscriber;
 
-use App\Infrastructure\Enum\CodeEnum;
-use App\Infrastructure\Exception\Status400\BadRequestHttpException;
-use App\Infrastructure\Exception\Status400\NotAuthorizationHttpException;
-use App\Infrastructure\Exception\Status400\NotFoundHttpException;
-use App\Infrastructure\Exception\Status500\InternalServerHttpException;
-use App\Infrastructure\Subscriber\ResponseSubscriber;
-use App\Infrastructure\VO\ResponseVO;
-use App\Tests\Infrastructure\Subscriber\TestException;
+use GuiChaves\Infrastructure\Enum\CodeEnum;
+use GuiChaves\Infrastructure\Exception\Status400\BadRequestHttpException;
+use GuiChaves\Infrastructure\Exception\Status400\NotAuthorizationHttpException;
+use GuiChaves\Infrastructure\Exception\Status400\NotFoundHttpException;
+use GuiChaves\Infrastructure\Exception\Status500\InternalServerHttpException;
+use GuiChaves\Infrastructure\Subscriber\ResponseSubscriber;
+use GuiChaves\Infrastructure\VO\ResponseVO;
+use GuiChaves\Tests\Infrastructure\Subscriber\TestException;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;

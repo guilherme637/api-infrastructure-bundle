@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Infrastructure\Exception\Status500;
+namespace GuiChaves\Infrastructure\Exception\Status500;
 
-use App\Infrastructure\Enum\CodeEnum;
-use App\Infrastructure\Exception\AbstractException;
+use GuiChaves\Infrastructure\Enum\CodeEnum;
+use GuiChaves\Infrastructure\Exception\AbstractException;
 
 class InternalServerHttpException extends AbstractException
 {

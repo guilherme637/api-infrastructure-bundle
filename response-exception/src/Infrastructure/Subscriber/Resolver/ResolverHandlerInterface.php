@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Infrastructure\Subscriber\Resolver;
+namespace GuiChaves\Infrastructure\Subscriber\Resolver;
 
-use App\Infrastructure\VO\ResponseVO;
+use GuiChaves\Infrastructure\VO\ResponseVO;
 
 interface ResolverHandlerInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Infrastructure\Exception;
+namespace GuiChaves\Infrastructure\Exception;
 
 abstract class AbstractException extends \Exception
 {

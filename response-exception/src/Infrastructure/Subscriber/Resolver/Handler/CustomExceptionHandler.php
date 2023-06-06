@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Infrastructure\Subscriber\Resolver\Handler;
+namespace GuiChaves\Infrastructure\Subscriber\Resolver\Handler;
 
-use App\Infrastructure\Subscriber\Resolver\ResolverAbstract;
+use GuiChaves\Infrastructure\Subscriber\Resolver\ResolverAbstract;
 
 class CustomExceptionHandler extends ResolverAbstract
 {

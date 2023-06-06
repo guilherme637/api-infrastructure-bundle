@@ -2,8 +2,8 @@
 
 namespace Infrastructure\Exception;
 
-use App\Infrastructure\Enum\CodeEnum;
-use App\Infrastructure\Exception\Status500\InternalServerHttpException;
+use GuiChaves\Infrastructure\Enum\CodeEnum;
+use GuiChaves\Infrastructure\Exception\Status500\InternalServerHttpException;
 use PHPUnit\Framework\TestCase;
 
 class InternalServerHttpExceptionTest extends TestCase

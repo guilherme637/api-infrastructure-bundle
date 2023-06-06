@@ -2,8 +2,8 @@
 
 namespace Infrastructure\Exception;
 
-use App\Infrastructure\Enum\CodeEnum;
-use App\Infrastructure\Exception\Status200\NoContentHttpException;
+use GuiChaves\Infrastructure\Enum\CodeEnum;
+use GuiChaves\Infrastructure\Exception\Status200\NoContentHttpException;
 use PHPUnit\Framework\TestCase;
 
 class NoContentHttpExceptionTest extends TestCase

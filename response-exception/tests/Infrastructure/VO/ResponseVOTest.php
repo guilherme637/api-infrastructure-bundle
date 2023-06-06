@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Tests\Infrastructure\VO;
+namespace GuiChaves\Tests\Infrastructure\VO;
 
-use App\Infrastructure\Enum\CodeEnum;
-use App\Infrastructure\Exception\Status500\InternalServerHttpException;
-use App\Infrastructure\VO\ResponseVO;
+use GuiChaves\Infrastructure\Enum\CodeEnum;
+use GuiChaves\Infrastructure\Exception\Status500\InternalServerHttpException;
+use GuiChaves\Infrastructure\VO\ResponseVO;
 use PHPUnit\Framework\TestCase;
 
 class ResponseVOTest extends TestCase

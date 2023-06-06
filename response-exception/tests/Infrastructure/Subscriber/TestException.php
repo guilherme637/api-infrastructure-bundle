@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Tests\Infrastructure\Subscriber;
+namespace GuiChaves\Tests\Infrastructure\Subscriber;
 
 class TestException extends \DomainException
 {

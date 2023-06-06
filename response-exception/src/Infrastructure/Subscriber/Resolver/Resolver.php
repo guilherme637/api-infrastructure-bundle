@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Infrastructure\Subscriber\Resolver;
+namespace GuiChaves\Infrastructure\Subscriber\Resolver;
 
-use App\Infrastructure\Subscriber\Resolver\Handler\BadRequestHandler;
-use App\Infrastructure\Subscriber\Resolver\Handler\CustomExceptionHandler;
-use App\Infrastructure\Subscriber\Resolver\Handler\NotAuthorizationHandler;
-use App\Infrastructure\Subscriber\Resolver\Handler\NotFoundHandler;
-use App\Infrastructure\VO\ResponseVO;
+use GuiChaves\Infrastructure\Subscriber\Resolver\Handler\BadRequestHandler;
+use GuiChaves\Infrastructure\Subscriber\Resolver\Handler\CustomExceptionHandler;
+use GuiChaves\Infrastructure\Subscriber\Resolver\Handler\NotAuthorizationHandler;
+use GuiChaves\Infrastructure\Subscriber\Resolver\Handler\NotFoundHandler;
+use GuiChaves\Infrastructure\VO\ResponseVO;
 
 class Resolver
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Infrastructure\Subscriber\Resolver;
+namespace GuiChaves\Infrastructure\Subscriber\Resolver;
 
-use App\Infrastructure\Exception\Status500\InternalServerHttpException;
-use App\Infrastructure\VO\ResponseVO;
+use GuiChaves\Infrastructure\Exception\Status500\InternalServerHttpException;
+use GuiChaves\Infrastructure\VO\ResponseVO;
 
 abstract class ResolverAbstract implements ResolverHandlerInterface
 {
