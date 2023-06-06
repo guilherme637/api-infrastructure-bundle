@@ -1,5 +1,6 @@
 {
     "type": "symfony-bundle",
+    "version": "1.1.0",
     "name": "guichaves/api-infrastructure-bundle",
     "license": "proprietary",
     "minimum-stability": "stable",
