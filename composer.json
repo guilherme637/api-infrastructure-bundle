@@ -2,6 +2,7 @@
     "type": "symfony-bundle",
     "version": "1.0.0",
     "name": "guichaves/api-infrastructure-bundle",
+    "description": "bundle for my projects",
     "license": "proprietary",
     "minimum-stability": "stable",
     "prefer-stable": false,
@@ -57,11 +58,5 @@
     },
     "conflict": {
         "symfony/symfony": "*"
-    },
-    "extra": {
-        "symfony": {
-            "allow-contrib": false,
-            "require": "5.4.*"
-        }
     }
 }
